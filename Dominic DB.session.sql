@@ -5,3 +5,5 @@ SELECT * FROM  departments;
 SELECT department_id ,  SUM(salary) FROM employees GROUP BY department_id HAVING count(*)  >=  2;
 -- Retrieve the department ID and name for a specific department (e.g., 5)
 SELECT department_id ,  department_name FROM departments WHERE department_id = 5;
+
+#we changed something
