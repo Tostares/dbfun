@@ -9,5 +9,3 @@ SELECT department_id ,  department_name FROM departments WHERE department_id = 5
 --Retrieve the department ID and name for a specific department (e.g., 5)
 SELECT department_no ,  department_name FROM departments WHERE department_name = 'Customer Service';
 
---Retrieve top 10 records from the employees table
-SELECT * FROM employees LIMIT 10;
